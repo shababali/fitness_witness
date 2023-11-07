@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Macro Tracking Form</title>
+</head>
+<body>
+    <form action="/" method="post" id="form">
+        <div id="item_fields">
+            <div>
+                <label for="item">Select an item:</label>
+                <select name="item">
+                    {% for fn in food_names_array %}
+                        <option value="{{ fn }}">{{ fn }}</option>
+                    {% endfor %}
+                </select>
+                <input type="text" name="mass">
+                <label for="mass">mass (grams):</label>
+            </div>
+        </div>
+        <input type="button" value="Add Item" onClick="addField();">
+        <br><br>
+        <input type="submit" name="submit" value="Submit">
+        <input type="submit" name="reset" value="Reset">
+    </form>
+
+    <script>
+        var itemCounter = 1;
+
+        function addField() {
+            var container = document.getElementById("item_fields");
+            var newItem = document.createElement("div");
+            newItem.innerHTML = `
+                <label for="item">Select an item:</label>
+                <select name="item">
+                    {% for fn in food_names_array %}
+                        <option value="{{ fn }}">{{ fn }}</option>
+                    {% endfor %}
+                </select>
+                <input type="text" name="mass">
+                <label for="mass">mass (grams):</label>
+            `;
+            container.appendChild(newItem);
+            itemCounter++;
+        }
+    </script>
+
+</body>
+</html>

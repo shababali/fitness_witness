@@ -1,0 +1,280 @@
+{
+	"land_animal": [
+		{
+			"name": "goat",
+			"caloric_breakdown": {
+				"fat": 8.69,
+				"oil": 0,
+				"protein": 20.6,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "chicken breast (skinless)",
+			"caloric_breakdown": {
+				"fat": 3.6,
+				"oil": 0,
+				"protein": 20.8,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "chicken breast (skin on)",
+			"caloric_breakdown": {
+				"fat": 9.7,
+				"oil": 0,
+				"protein": 20.8,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "chicken wing (skinless)",
+			"caloric_breakdown": {
+				"fat": 8.8,
+				"oil": 0,
+				"protein": 18.5,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "chicken thigh (skinless)",
+			"caloric_breakdown": {
+				"fat": 12.5,
+				"oil": 0,
+				"protein": 17,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "chicken drumstick (skinless)",
+			"caloric_breakdown": {
+				"fat": 10.2,
+				"oil": 0,
+				"protein": 16.5,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "chicken drumstick (skin on)",
+			"caloric_breakdown": {
+				"fat": 12.4,
+				"oil": 0,
+				"protein": 16.5,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "beef",
+			"caloric_breakdown": {
+				"fat": 18.54,
+				"oil": 0,
+				"protein": 19.91,
+				"carbohydrates": 0
+			}
+		}
+	],
+	"ocean_animal": [
+		{
+			"name": "salmon",
+			"caloric_breakdown": {
+				"oil": 13.42,
+				"fat": 0,
+				"protein": 19.84,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "prawns",
+			"caloric_breakdown": {
+				"oil": 1.73,
+				"fat": 0,
+				"protein": 24.4,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "halibut",
+			"caloric_breakdown": {
+				"oil": 2.35,
+				"fat": 0,
+				"protein": 18.84,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "mackerel",
+			"caloric_breakdown": {
+				"oil": 13.89,
+				"fat": 0,
+				"protein": 18.6,
+				"carbohydrates": 0
+			}
+		},
+		{
+			"name": "tuna",
+			"caloric_breakdown": {
+				"oil": 0.82,
+				"fat": 0,
+				"protein": 23.33,
+				"carbohydrates": 0
+			}
+		}
+	],
+	"fruits": [
+		{
+			"name": "banana",
+			"caloric_breakdown": {
+				"fat": 0.33,
+				"oil": 0,
+				"protein": 1.09,
+				"carbohydrates": 22.84
+			}
+		},
+		{
+			"name": "raspberry",
+			"caloric_breakdown": {
+				"fat": 0.8,
+				"oil": 0,
+				"protein": 1.2,
+				"carbohydrates": 11.94
+			}
+		},
+		{
+			"name": "blueberry",
+			"caloric_breakdown": {
+				"fat": 0.49,
+				"oil": 0,
+				"protein": 0.74,
+				"carbohydrates": 14.49
+			}
+		},
+		{
+			"name": "blackberry",
+			"caloric_breakdown": {
+				"fat": 0.49,
+				"oil": 0,
+				"protein": 1.3,
+				"carbohydrates": 9.61
+			}
+		},
+		{
+			"name": "orange",
+			"caloric_breakdown": {
+				"fat": 0.21,
+				"oil": 0,
+				"protein": 0.94,
+				"carbohydrates": 8.3
+			}
+		},
+		{
+			"name": "apple",
+			"caloric_breakdown": {
+				"fat": 0.17,
+				"oil": 0,
+				"protein": 0.26,
+				"carbohydrates": 13.81
+			}
+		}
+	],
+	"vegetables": [
+		{
+			"name": "spinach",
+			"caloric_breakdown": {
+				"fat": 0.39,
+				"oil": 0,
+				"protein": 2.86,
+				"carbohydrates": 3.63
+			}
+		},
+		{
+			"name": "kale",
+			"caloric_breakdown": {
+				"fat": 0.93,
+				"oil": 0,
+				"protein": 4.28,
+				"carbohydrates": 8.75
+			}
+		},
+		{
+			"name": "rapini",
+			"caloric_breakdown": {
+				"fat": 0.2,
+				"oil": 0,
+				"protein": 3.17,
+				"carbohydrates": 2.85
+			}
+		},
+		{
+			"name": "yam",
+			"caloric_breakdown": {
+				"fat": 0.17,
+				"oil": 0,
+				"protein": 1.54,
+				"carbohydrates": 27.88
+			}
+		},
+		{
+			"name": "cauliflower",
+			"caloric_breakdown": {
+				"fat": 0.28,
+				"oil": 0,
+				"protein": 1.92,
+				"carbohydrates": 4.97
+			}
+		},
+		{
+			"name": "broccoli",
+			"caloric_breakdown": {
+				"fat": 0.37,
+				"oil": 0,
+				"protein": 2.82,
+				"carbohydrates": 6.64
+			}
+		},
+		{
+			"name": "garlic",
+			"caloric_breakdown": {
+				"fat": 0.5,
+				"oil": 0,
+				"protein": 6.36,
+				"carbohydrates": 33.06
+			}
+		},
+		{
+			"name": "ginger",
+			"caloric_breakdown": {
+				"fat": 0.75,
+				"oil": 0,
+				"protein": 1.82,
+				"carbohydrates": 17.77
+			}
+		},
+		{
+			"name": "beets",
+			"caloric_breakdown": {
+				"fat": 0.17,
+				"oil": 0,
+				"protein": 1.61,
+				"carbohydrates": 8.96
+			}
+		},
+		{
+			"name": "shallots",
+			"caloric_breakdown": {
+				"fat": 0.1,
+				"oil": 0,
+				"protein": 2.5,
+				"carbohydrates": 16.8
+			}
+		},
+		{
+			"name": "sprouts",
+			"caloric_breakdown": {
+				"fat": 0.3,
+				"oil": 0,
+				"protein": 3.81,
+				"carbohydrates": 5.11
+			}
+		}
+	]
+}
