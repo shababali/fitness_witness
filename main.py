@@ -26,4 +26,3 @@ async def root():
     html_content = template.render(food_names_array=food_names_array)  # You can pass context variables as arguments if needed
 
     return HTMLResponse(content=html_content)
-
