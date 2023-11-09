@@ -1,24 +1,29 @@
-from flask import Flask, request, render_template
 import json
 
-app = Flask(__name__)
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
-@app.route("/", methods=['GET', 'POST'])
-def index():
+app = FastAPI()
 
-    # get food data
+# Jinja environment setup
+templates = Environment(
+    loader=FileSystemLoader("templates"),
+    autoescape=select_autoescape(['html', 'xml'])
+)
+
+@app.get("/")
+@app.post("/")
+async def root():
+
+    # # get food data
     with open("foods.json") as f:
         data = json.load(f)
     food_names_array = [e["name"] for category in data.values() for e in category]
 
-    if request.method == 'POST':
+    template = templates.get_template("form_template.html")
+    html_content = template.render(food_names_array=food_names_array)  # You can pass context variables as arguments if needed
 
-        if 'submit' in request.form:
-            # Logic based on the submit button value
-            return f"submit"
-        elif 'reset' in request.form:
-            # Logic for reset button
-            return "reset"
+    return HTMLResponse(content=html_content)
 
-    return render_template('form_template.html', food_names_array=food_names_array)
