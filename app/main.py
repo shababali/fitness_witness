@@ -16,13 +16,14 @@ templates = Environment(
 @app.get("/")
 @app.post("/")
 async def root():
-
     # # get food data
     with open("foods.json") as f:
         data = json.load(f)
-    food_names_array = [e["name"] for category in data.values() for e in category]
 
+    # return data
+    food_names_array = [e["name"] for category in data.values() for e in category]
+    #
     template = templates.get_template("form_template.html")
     html_content = template.render(food_names_array=food_names_array)  # You can pass context variables as arguments if needed
-
+    #
     return HTMLResponse(content=html_content)
